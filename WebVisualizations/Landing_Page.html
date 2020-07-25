@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Landing_Page.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Landing_Page.html" class="heading">Latitude</a>
+      </li>
+      <li>
+        <div class="dropdown">
+            <button class="dropbtn">Plots
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Max_Temp.html">Max Temperature</a>
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Humidity.html">Humidity</a>
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Cloudiness.html">Cloudiness</a>
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Wind_Speed.html">Wind Speed</a>
+            </div>
+          </div>
+      </li>
+      <li>
+        <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Comparisons_Page.html" class="links">Comparison</a>
+      </li>
+      <li>
+        <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Data_Page.html" class="links">Data</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="box">
+          <h1>Summary: Latitude vs. X</h1>
+          <img src=/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/assets/images/Fig1.png class="large_image" />
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="boxtwo">
+          <h2>Visualizations</h2>
+
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Max_Temp.html">
+                <img src=/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/assets/images/Fig1.png class="small_image" />
+              </a>
+
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Humidity.html">
+                <img src=/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/assets/images/Fig2.png class="small_image" />
+              </a>
+
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Cloudiness.html">
+                <img src=/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/assets/images/Fig3.png class="small_image" />
+              </a>
+
+              <a href="/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/Visualization_Page_Wind_Speed.html">
+                <img src=/Users/sarahparzyck/Desktop/Web-Design-Challenge/WebVisualizations/assets/images/Fig4.png class="small_image" />
+              </a>
+
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>
