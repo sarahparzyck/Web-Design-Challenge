@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="comparisonstyle.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="index.html" class="heading">Latitude</a>
+      </li>
+      <li>
+        <div class="dropdown">
+            <button class="dropbtn">Plots
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="maxtemp.html">Max Temperature</a>
+              <a href="humidity.html">Humidity</a>
+              <a href="cloudiness.html">Cloudiness</a>
+              <a href="windspeed.html">Wind Speed</a>
+            </div>
+          </div>
+      </li>
+      <li>
+        <a href="comparison.html" class="links">Comparison</a>
+      </li>
+      <li>
+        <a href="data.html" class="links">Data</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="box">
+          <h1>Comparison: Latitude vs X</h1>
+          <p>Click any plot to get an in-depth analysis</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>vs. Max Temperature</h2>
+                    <a href="maxtemp.html">
+                        <img src=Fig1.png class="small_image" />
+                    </a>
+                </div>
+            
+                <div class="col-lg-6">
+                    <h2>vs. Humidity</h2>
+                    <a href="humidity.html">
+                    <img src=Fig2.png class="small_image" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>vs. Cloudiness</h2>
+                    <a href="cloudiness.html">
+                        <img src=Fig3.png class="small_image" />
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2>vs. Wind Speed</h2>
+                    <a href="windspeed.html">
+                        <img src=Fig4.png class="small_image" />
+                 </a> 
+                </div>
+            </div>
+        </div>    
+    </div>          
+
+
+</body>
+</html>
